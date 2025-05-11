@@ -1,0 +1,15 @@
+{
+    "name": "mcp-switchbot-tool",
+    "version": "1.1.0",
+    "description": "MCP SwitchBot integration using official SDK",
+    "main": "mcp-sdk-server.js",
+    "scripts": {
+        "start": "node mcp-sdk-server.js",
+        "test": "node test-sdk.js",
+        "install-deps": "npm install @modelcontextprotocol/sdk zod"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "1.11.1",
+        "zod": "3.24.4"
+    }
+}
